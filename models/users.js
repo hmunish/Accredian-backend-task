@@ -26,7 +26,6 @@ const User = database.define('users', {
     { fields: ['email'] },
     { fields: ['username'] },
   ],
-},
-);
+});
 
 module.exports = User;
