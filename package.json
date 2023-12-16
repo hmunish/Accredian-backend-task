@@ -4,6 +4,8 @@
   "description": "Accredian backend tast:- REST API for user authentication with MySQL database.",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "fix-linters": "eslint . --fix"
   },
   "author": "",
