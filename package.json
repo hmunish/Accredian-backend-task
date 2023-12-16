@@ -1,0 +1,20 @@
+{
+  "name": "accredian-backend-task",
+  "version": "1.0.0",
+  "description": "Accredian backend tast:- REST API for user authentication with MySQL database.",
+  "main": "index.js",
+  "scripts": {
+    "fix-linters": "eslint . --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.29.1"
+  }
+}
